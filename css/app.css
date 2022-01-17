@@ -1,0 +1,45 @@
+body{
+    width: 400px;
+    height: 500px;
+}
+h2 {
+    color: #6594e0;
+    border-bottom: dashed 2px #6594e0;
+}
+
+/*copypet.jp/397 を引用 (改造少し)*/
+.cp_link {
+    font-size: large;
+	display: inline-block;
+	padding: 0.1em 0.1em;
+	transition: all .3s;
+    text-decoration: none;
+    vertical-align: middle;
+    color: rgb(83, 83, 83);
+}
+.cp_link:hover {
+	color: #fff;
+	background-color: #00BCD4;
+}
+/*copypet.jp を引用*/
+ul,
+ol {
+    padding: 0;
+    position: relative;
+}
+
+ul li,
+ol li {
+    color: #2d8fdd;
+    border-left: solid 6px #2d8fdd;
+    /*左側の線*/
+    background: #f1f8ff;
+    /*背景色*/
+    margin-bottom: 3px;
+    /*下のバーとの余白*/
+    line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none !important;
+    /*ポチ消す*/
+}
+
